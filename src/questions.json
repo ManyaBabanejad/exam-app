@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which hook is used for side effects?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useCallback",
+      "useMemo"
+    ],
+    "answer": "useEffect"
+  },
+  {
+    "id": 2,
+    "question": "What does useRef return?",
+    "options": [
+      "A mutable object with .current",
+      "Component state",
+      "A function",
+      "A virtual DOM element"
+    ],
+    "answer": "A mutable object with .current"
+  },
+  {
+    "id": 3,
+    "question": "How do you prevent unnecessary re-renders?",
+    "options": [
+      "React.memo",
+      "useEffect",
+      "useState",
+      "useContext"
+    ],
+    "answer": "React.memo"
+  },
+  {
+    "id": 4,
+    "question": "Which hook is used for global state?",
+    "options": [
+      "useContext",
+      "useState",
+      "useReducer",
+      "useEffect"
+    ],
+    "answer": "useContext"
+  },
+  {
+    "id": 5,
+    "question": "Which method is used to update state based on previous state?",
+    "options": [
+      "Passing a function to setState",
+      "Direct assignment",
+      "useEffect",
+      "useRef"
+    ],
+    "answer": "Passing a function to setState"
+  },
+  {
+    "id": 6,
+    "question": "What is React.lazy used for?",
+    "options": [
+      "Code splitting",
+      "State management",
+      "Event handling",
+      "Styling components"
+    ],
+    "answer": "Code splitting"
+  },
+  {
+    "id": 7,
+    "question": "What is the default behavior of form submit?",
+    "options": [
+      "Page reload",
+      "State update",
+      "Virtual DOM update",
+      "No action"
+    ],
+    "answer": "Page reload"
+  },
+  {
+    "id": 8,
+    "question": "What is the difference between useEffect and useLayoutEffect?",
+    "options": [
+      "useLayoutEffect runs before painting, useEffect after",
+      "useEffect runs first",
+      "Both are the same",
+      "useLayoutEffect only for state"
+    ],
+    "answer": "useLayoutEffect runs before painting, useEffect after"
+  },
+  {
+    "id": 9,
+    "question": "Which is a common way to prevent prop drilling?",
+    "options": [
+      "React Context",
+      "useState",
+      "useEffect",
+      "useReducer"
+    ],
+    "answer": "React Context"
+  },
+  {
+    "id": 10,
+    "question": "Which hook is used to manage complex state logic?",
+    "options": [
+      "useReducer",
+      "useState",
+      "useEffect",
+      "useCallback"
+    ],
+    "answer": "useReducer"
+  }
+]
